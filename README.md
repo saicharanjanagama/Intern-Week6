@@ -17,11 +17,11 @@
 ---
 
 ## 🚀 Live Demo  
-🔗 **View Project:** *Deploy the project using GitHub Pages to add link here*
+🔗 **View Project:** [📝 Personal Blog App (Week 6 Project)](https://saicharanjanagama.github.io/Intern-Week6/)
 
 📸 **Preview:**  
 <p align="center">
-  <img src="Screenshot.png" width="700" alt="Personal Blog Preview"/>
+  <img src="Screenshot1.png" width="700" alt="Personal Blog Preview"/>
 </p>
 
 ---
