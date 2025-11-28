@@ -132,3 +132,49 @@ textarea {
     background: #dc3545;
     color: white;
 }
+
+/* 📱 Mobile Responsive */
+@media (max-width: 600px) {
+
+    .wrapper {
+        margin: 20px;
+        padding: 0 5px;
+    }
+
+    .title {
+        font-size: 1.6rem;
+    }
+
+    .card {
+        padding: 20px;
+    }
+
+    input, textarea {
+        padding: 10px;
+        font-size: 0.95rem;
+    }
+
+    .submit-btn {
+        font-size: 0.95rem;
+        padding: 10px;
+    }
+
+    .blog-card {
+        padding: 12px 15px;
+        border-left-width: 4px;
+    }
+
+    .blog-card h3 {
+        font-size: 1.1rem;
+    }
+
+    .blog-card p {
+        font-size: 0.9rem;
+    }
+
+    .btn {
+        padding: 7px 12px;
+        font-size: 0.85rem;
+        margin-right: 5px;
+    }
+}
