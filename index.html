@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="user1.png">
+    <title>MY Personal Blog</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="wrapper">
+        <h1 class="title"><img src="user2.png"> MY Personal Blog</h1>
+
+        <div class="card form-card">
+            <form id="blogForm">
+                <input type="hidden" id="blogId">
+
+                <label>Title</label>
+                <input type="text" id="title" placeholder="Enter blog title..." required>
+
+                <label>Content</label>
+                <textarea id="content" placeholder="Write something..." required></textarea>
+
+                <button type="submit" class="submit-btn">Save Blog</button>
+            </form>
+        </div>
+
+        <h2 class="subtitle">Your Blogs</h2>
+
+        <div id="blogsContainer" class="blogs-list"></div>
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
